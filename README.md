@@ -90,7 +90,7 @@ It is recommended that you remove your microSD card in slot TF2 on your Anbernic
 9) **Once the install is complete, you will be asked to remove the microSD card. Once this is done, you will boot into GammaOS. The microSD card is no longer required.**
       ![image](https://github.com/TheGammaSqueeze/GammaOS-RK3566/assets/116582950/80753b77-7892-4736-a236-ee164e2d4356)
 
-Your first boot into GammaOS will take some time, so please be patient. Your screen may turn off and on during this process, and the GammaOS logo may appear several times, this is normal.
+Your first boot into GammaOS will take some time, so please be patient. Your screen may turn off and on during this process (sometimes it might stay off, just turn it back on), and the GammaOS logo may appear several times, this is normal.
 If signing into a Google account, initial updates may take some time and will install in the background. This may slow down the device until complete.
 
 Enjoy!
