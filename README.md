@@ -1,5 +1,5 @@
-# Anbernic RG353 / RG ARC
-# GammaOS + GammaOS Lite Custom Firmware - v1.3.3
+# Anbernic RG353P / RG353V / RG353M / RG ARC-D
+# GammaOS + GammaOS Lite Android Custom Firmware - v1.3.3
 
 - Like my work and want to buy me a coffee? Feel free to buy one here: https://ko-fi.com/thegammasqueeze
 
@@ -16,6 +16,8 @@ Instructions:
 Information
 ----------------------------
 GammaOS is based on LineageOS 19.1 (Android 12). It provides a debloated and performance optimized experience for users who are looking to get the best Android experience out of their Anbernic RG353 and ARC devices.
+
+This replaces your built-in Android system for your device. Linux based CFW that boots from microSD are unaffected.
 
 Features:
 - Based on debloated and clean LineageOS 19.1 build, Android 12 for a smoother experience. Only comes with RetroArch for emulation, install standalone emulators as required.
