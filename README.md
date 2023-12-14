@@ -95,6 +95,9 @@ It is recommended that you remove your microSD card in slot TF2 on your Anbernic
 Your first boot into GammaOS will take some time, so please be patient. Your screen may turn off and on during this process (sometimes it might stay off, just turn it back on), and the GammaOS logo may appear several times, this is normal.
 If signing into a Google account, initial updates may take some time and will install in the background. This may slow down the device until complete.
 
+Once booted into GammaOS, don't forget to install this Magisk module so that you can easily boot between Android and Linux using the F key: https://github.com/TheGammaSqueeze/GammaOS-RK3566/blob/main/LinuxSDBootFix.zip
+Not installing this will cause Linux SD cards to stop booting if using the F button to boot. 
+
 Enjoy!
 
 Help! My device is no longer booting! Or I want to go back to Stock OS!
