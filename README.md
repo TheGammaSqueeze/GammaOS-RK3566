@@ -107,6 +107,9 @@ Anbernic provide factory images for the RK3566 devices. You can find downloads a
 RG353 Series: https://win.anbernic.com/download/233.html
 RG ARC: https://win.anbernic.com/download/289.html
 
+Alternatively, you can download these here: https://github.com/TheGammaSqueeze/GammaOS-RK3566/releases/tag/StockFirmware_RG
+
+The instructions are the same as flashing GammaOS, only except we are using Anbernics own update.img
 
 Changelog
 ----------------------------
