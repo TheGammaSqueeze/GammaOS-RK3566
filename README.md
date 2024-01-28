@@ -100,7 +100,50 @@ Enjoy!
 
 Instructions - Upgrade from existing GammaOS install (Flash using fastbootd)
 ----------------------------
-Coming soon
+
+Video guide here for upgrading your firmware from an existing GammaOS install: https://youtu.be/HQuK0o4PrDo
+
+[![Upgrading GammaOS to v1.5 - Anbernic RG405M Custom Firmware CFW](https://i.imgur.com/EgOKl3J.png)](https://www.youtube.com/watch?v=HQuK0o4PrDo "Upgrading GammaOS to v1.5 - Anbernic RG405M Custom Firmware CFW")
+
+Prerequisites:
+- Extract the GammaOS/GammaOSLite folder and its files before proceeding.
+- Get ADB and Fastboot tools + drivers.
+
+**On Windows**
+
+- Ensure you install the Universal ADB Driver: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+
+- Install Unisoc Drivers (yes, this is right), run the DPInst64.exe program in your relevant OS folder. (Available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip, Win10 drivers will also work on Win11.)
+
+- Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
+
+**On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+
+or via homebrew on **MacOS**:
+- `brew update`
+- `brew install android-platform-tools`
+
+The process **on Linux** differs from distro to distro.
+
+On Arch, you can use the `android-sdk-platform-tools` from AUR.
+
+On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has Chaotic-AUR preinstalled.
+
+**For those already on GammaOS**:
+- Hold down the power button, choose Restart, choose Recovery.
+- Once in Recovery, use the volume buttons to navigate to Enter Fastboot.
+
+**For stock OS only**:
+- Enable USB Debugging: https://developer.android.com/studio/debug/dev-options
+- Connect your USB cable, issue the command via command line: adb reboot fastboot
+
+Flashing the custom firmware:
+- Close all command line windows from before
+- Navigate to your extracted GammaOS/GammaOSLite folder
+- Open the FlashPartitions script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient.
+- **(ONLY FOR STOCK OS USERS):** Open the EraseUserData script, it will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
+- You can now reboot your device by pressing the power button once.
+- Congratulations, you are now on the latest GammaOS!
 
 Help! My device is no longer booting! Or I want to go back to Stock OS!
 ----------------------------
