@@ -117,6 +117,7 @@ Changelog
 ----------------------------
 - (v1.5.1) Fixed audio issues with headphones and HDMI.
 - (v1.5.1) Updated Mali GPU drivers to latest version for smoother performance.
+- (v1.5.1) Fixed holding F to boot into Android breaking Linux SD card (this functionality is only supported on stock Linux OS, not any Linux CFW)
 - (v1.5) Moved everything to Quick settings tiles for Performance modes, ABXY layout changes, Adjusting analog stick sensitivity, invert axis for analog left/right, swap dpad and left analog input (useful for RG ARC). No more need to hold down button combos.
 - (v1.5) Add aptX BT audio support.
 - (v1.5) Improve battery standby time and reduced memory consumption.
