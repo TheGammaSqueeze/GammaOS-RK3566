@@ -63,8 +63,11 @@ What's missing:
 Instructions - Brand new install (Flash using SD Card)
 ----------------------------
 This is a straightforward process for a new install. You will need a Windows machine, a spare microSD card (minimum of 4GB recommended), and a microSD card reader for your Windows machine. 
+
 This will erase all your data currently on the device.
-Just download the non FASTBOOT version of the release.
+
+Just download the non FASTBOOT version of the release. If you are unable to install GammaOS using the SDDiskTool then use the fastboot method instead: - [Upgrade from existing GammaOS install (Flash using fastbootd)](https://github.com/TheGammaSqueeze/GammaOS-RK3566#instructions---upgrade-from-existing-gammaos-install-flash-using-fastbootd)
+
 **Remove your microSD card in slot TF2 on your Anbernic device until the install is complete and you have fully set up Android.**
 
 **NOTE: Do not try and use a tool like Win32DiskImager or balenaEtcher, this will not work.**
