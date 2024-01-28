@@ -64,7 +64,7 @@ Instructions - Brand new install (Flash using SD Card)
 ----------------------------
 This is a straightforward process for a new install. You will need a Windows machine, a spare microSD card (minimum of 4GB recommended), and a microSD card reader for your Windows machine. 
 This will erase all your data currently on the device.
-It is recommended that you remove your microSD card in slot TF2 on your Anbernic device until the install is complete and you have fully set up Android.
+**Remove your microSD card in slot TF2 on your Anbernic device until the install is complete and you have fully set up Android.**
 
 **NOTE: Do not try and use a tool like Win32DiskImager or balenaEtcher, this will not work.**
 
