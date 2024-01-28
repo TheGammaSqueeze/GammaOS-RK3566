@@ -1,22 +1,24 @@
 # Anbernic RG353P / RG353V / RG353M / RG ARC-D
-# GammaOS + GammaOS Lite Android Custom Firmware - v1.3.3
+# GammaOS + GammaOS Lite Android Custom Firmware - v1.5.1
 
 - Like my work and want to buy me a coffee? Feel free to buy one here: https://ko-fi.com/thegammasqueeze
 
 
 Download and instructions
 ----------------------------
-- GammaOS v1.3.3 download: https://github.com/TheGammaSqueeze/GammaOS-RK3566/releases
+- GammaOS v1.5.1 download: https://github.com/TheGammaSqueeze/GammaOS-RK3566/releases
 - [(Changelog)](https://github.com/TheGammaSqueeze/GammaOS-RK3566#changelog)
 
 Instructions:
 - [Brand new install (Flash using SD Card)](https://github.com/TheGammaSqueeze/GammaOS-RK3566#instructions---brand-new-install-flash-using-sd-card)
+- [Upgrade from existing GammaOS install (Flash using fastbootd)](https://github.com/TheGammaSqueeze/GammaOS-RK3566#instructions---upgrade-from-existing-gammaos-install-flash-using-fastbootd)
 - [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS-RK3566#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 Information
 ----------------------------
 GammaOS is based on LineageOS 19.1 (Android 12). It provides a debloated and performance optimized experience for users who are looking to get the best Android experience out of their Anbernic RG353 and ARC devices.
 
+**For the RK3566 series, it is recommended to use GammaOS Lite edition for further performance headroom.**
 This replaces your built-in Android system for your device. Linux based CFW that boots from microSD are unaffected.
 
 Features:
@@ -93,12 +95,12 @@ It is recommended that you remove your microSD card in slot TF2 on your Anbernic
       ![image](https://github.com/TheGammaSqueeze/GammaOS-RK3566/assets/116582950/80753b77-7892-4736-a236-ee164e2d4356)
 
 Your first boot into GammaOS will take some time, so please be patient. Your screen may turn off and on during this process (sometimes it might stay off, just turn it back on), and the GammaOS logo may appear several times, this is normal.
-If signing into a Google account, initial updates may take some time and will install in the background. This may slow down the device until complete.
-
-Once booted into GammaOS, don't forget to install this Magisk module so that you can easily boot between Android and Linux using the F key: https://github.com/TheGammaSqueeze/GammaOS-RK3566/blob/main/LinuxSDBootFix.zip
-Not installing this will cause Linux SD cards to stop booting if using the F button to boot. 
-
+**If signing into a Google account, initial updates may take some time and will install in the background. This may slow down the device until complete.**
 Enjoy!
+
+Instructions - Upgrade from existing GammaOS install (Flash using fastbootd)
+----------------------------
+Coming soon
 
 Help! My device is no longer booting! Or I want to go back to Stock OS!
 ----------------------------
@@ -113,6 +115,16 @@ The instructions are the same as flashing GammaOS, only except we are using Anbe
 
 Changelog
 ----------------------------
+- (v1.5.1) Fixed audio issues with headphones and HDMI.
+- (v1.5.1) Updated Mali GPU drivers to latest version for smoother performance.
+- (v1.5) Moved everything to Quick settings tiles for Performance modes, ABXY layout changes, Adjusting analog stick sensitivity, invert axis for analog left/right, swap dpad and left analog input (useful for RG ARC). No more need to hold down button combos.
+- (v1.5) Add aptX BT audio support.
+- (v1.5) Improve battery standby time and reduced memory consumption.
+- (v1.5) Enable home/back key to act as menu button in RA, as well as the hotkey for other shortcuts.
+- (v1.5) Holding down home/back key will save your progress now in RA, and lets you quick resume games, similar to the MM OnionOS game switcher.
+- (v1.5) Update all RA cores, but stick with RA 1.15 due to touch screen regression.
+- (v1.5) Add Firefox alternative browser.
+- (v1.5) Fixed scope storage issues, can now launch Yaba2 and Redream directly from Daijisho (need to enable Allow All Files access for the relevant emulator first).
 - (v1.3.3) - Initial release
 
 Credits
