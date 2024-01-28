@@ -137,10 +137,11 @@ On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has
 **For those already on GammaOS**:
 - Hold down the power button, choose Restart, choose Recovery.
 - Once in Recovery, use the volume buttons to navigate to Enter Fastboot.
+- Connect your USB cable to the charging port on your device **(not the OTG port)**
 
 **For stock OS only**:
 - Enable USB Debugging: https://developer.android.com/studio/debug/dev-options
-- Connect your USB cable, issue the command via command line: adb reboot fastboot
+- - Connect your USB cable to the charging port on your device **(not the OTG port)**, issue the command via command line: adb reboot fastboot
 
 Flashing the custom firmware:
 - Close all command line windows from before
