@@ -6,7 +6,7 @@
 
 Download and instructions
 ----------------------------
-- GammaOS v1.5.1 download: https://github.com/TheGammaSqueeze/GammaOS-RK3566/releases
+- GammaOS v1.5.1 download (for both SD card and Fastboot methods): https://github.com/TheGammaSqueeze/GammaOS-RK3566/releases
 - [(Changelog)](https://github.com/TheGammaSqueeze/GammaOS-RK3566#changelog)
 
 Instructions:
@@ -64,6 +64,7 @@ Instructions - Brand new install (Flash using SD Card)
 ----------------------------
 This is a straightforward process for a new install. You will need a Windows machine, a spare microSD card (minimum of 4GB recommended), and a microSD card reader for your Windows machine. 
 This will erase all your data currently on the device.
+Just download the non FASTBOOT version of the release.
 **Remove your microSD card in slot TF2 on your Anbernic device until the install is complete and you have fully set up Android.**
 
 **NOTE: Do not try and use a tool like Win32DiskImager or balenaEtcher, this will not work.**
@@ -106,6 +107,7 @@ Video guide here for upgrading your firmware from an existing GammaOS install: h
 [![Upgrading GammaOS to v1.5 - Anbernic RG405M Custom Firmware CFW](https://i.imgur.com/EgOKl3J.png)](https://www.youtube.com/watch?v=HQuK0o4PrDo "Upgrading GammaOS to v1.5 - Anbernic RG405M Custom Firmware CFW")
 
 Prerequisites:
+- Download the FASTBOOT versions of the release (begins with FASTBOOT_ at the beginning of the file name)
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
 - Get ADB and Fastboot tools + drivers.
 
