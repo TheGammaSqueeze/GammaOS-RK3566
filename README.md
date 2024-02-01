@@ -122,9 +122,9 @@ Prerequisites:
 
 - Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
-**On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+**On MacOS**: Install homebrew: https://brew.sh/
 
-or via homebrew on **MacOS**:
+Via homebrew on **MacOS**:
 - `brew update`
 - `brew install android-platform-tools`
 
@@ -146,8 +146,14 @@ On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has
 Flashing the custom firmware:
 - Close all command line windows from before
 - Navigate to your extracted GammaOS/GammaOSLite folder
-- Open the FlashPartitions script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient.
-- **(ONLY FOR STOCK OS USERS):** Open the EraseUserData script, it will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
+- Open the FlashPartitions script 
+  - Windows: double click the .bat file. 
+  - Mac/Linux, open a terminal in the GammaOS directory, issue the command `sh FlashPartitions.sh`
+- It will begin flashing the firmware. This step can take up to 10 minutes so be patient.
+- (MANDATORY FOR STOCK OS USERS OR IF YOU ARE SWITCHING BETWEEN GAMMAOS AND GAMMAOS LITE, IGNORE IF UPGRADING) Open the EraseUserData script
+  - Windows: double click the .bat file. 
+  - Mac/Linux, open a terminal in the GammaOS directory, issue the command `sh EraseUserData.sh`
+- It will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
 - You can now reboot your device by pressing the power button once.
 - Congratulations, you are now on the latest GammaOS!
 
