@@ -117,6 +117,9 @@ Prerequisites:
 **On Windows**
 
 - Ensure you install the Universal ADB Driver: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+  - When installing, make sure both of these boxes are ticked:
+  - ![image](https://github.com/TheGammaSqueeze/GammaOS-RK3566/assets/116582950/12cf714d-fd90-4918-82da-7c6f941d403e)
+
 
 - Install Unisoc Drivers (yes, this is right), run the DPInst64.exe program in your relevant OS folder. (Available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip, Win10 drivers will also work on Win11.)
 
