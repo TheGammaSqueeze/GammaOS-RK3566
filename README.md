@@ -1,5 +1,6 @@
 # Anbernic RG353P / RG353V / RG353M / RG ARC-D
 # GammaOS + GammaOS Lite Android Custom Firmware - v1.5.1
+# This is now depracated and no longer maintained (use this only if you want Play Store support), consider using GammaOS Core instead: https://github.com/TheGammaSqueeze/GammaOSCore
 
 - Like my work and want to buy me a coffee? Feel free to buy one here: https://ko-fi.com/thegammasqueeze
 
